@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>schuetzenmeisterapp</id>
+	<name>Schuetzenmeister App</name>
+	<summary>Datenbank für Schützenmeister</summary>
+	<description>Schuetzenmeister Applikation für Nextcloud
+========
+
+Kernfunktionalitäten
+------------------------
+
+    - Datenbank für Waffenkammer</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author mail="markus@markusklemm.net" homepage="https://www.markusklemm.net">Markus Klemm</author>
+	<namespace>SchuetzenmeisterApp</namespace>
+	<category>organization</category>
+	<bugs>https://github.com/Superlokkus/SchuetzenMeisterApp</bugs>
+	<dependencies>
+		<nextcloud min-version="29" max-version="29"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>schuetzenmeisterapp</id>
+			<name>Schuetzenmeister App</name>
+			<route>schuetzenmeisterapp.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+</info>
